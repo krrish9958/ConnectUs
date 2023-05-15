@@ -1,10 +1,10 @@
 package com.example.connectus
 
 data class PostData(
-    var postId : String,
-    var username : String?=null,
+    val postId : String,
+    val username : String?=null,
 //    var profilePic : Int,
-    var caption : String,
+    val caption : String,
 //    var postPhoto : Int,
 
 )
