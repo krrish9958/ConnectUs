@@ -12,6 +12,9 @@
         android:theme="@style/Theme.ConnectUs"
         tools:targetApi="31">
         <activity
+            android:name=".AddPostActivity"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
