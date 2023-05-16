@@ -28,7 +28,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/profilePic"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             tools:srcCompat="@drawable/zenitsu" />
@@ -55,7 +55,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5">
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/postImg"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             tools:srcCompat="@drawable/mikey" />

@@ -41,7 +41,7 @@ class AddPostActivity : AppCompatActivity() {
             startActivity(intent)
 
         }.addOnFailureListener {
-            error->
+                error->
             Toast.makeText(this,"Failed! Try Again ${error.message}",Toast.LENGTH_SHORT).show()
         }
     }
